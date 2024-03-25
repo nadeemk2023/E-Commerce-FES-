@@ -6,3 +6,15 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.nav__container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
