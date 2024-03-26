@@ -17,4 +17,19 @@ nav {
     width: 100%;
     max-width: 1200px;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
 }
