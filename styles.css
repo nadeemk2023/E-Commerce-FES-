@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.purple {
+    color: #7342d6;
+}
+
 /* 
 
 NAVBAR 
@@ -61,4 +65,25 @@ li {
 
 .nav__link--primary:hover {
     text-decoration: none;
+}
+
+#landing {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+/* 
+
+HEADER 
+
+*/
+
+header {
+    height: calc(100vh - 80px);
+}
+
+.header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
 }
