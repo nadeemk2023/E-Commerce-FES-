@@ -286,3 +286,14 @@ FEATURES
     padding: 6px;
     color: #bfbfbf;
 }
+
+/* 
+
+RECENT BOOKS    
+
+ */
+
+.latestBooks {
+    display: flex;
+    flex-wrap: wrap;
+}
