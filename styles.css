@@ -151,6 +151,12 @@ h2 {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 p {
     line-height: 1.5;
 }
@@ -306,9 +312,4 @@ EXPLORE
 
 #explore {
     background-color: rgba(115, 66, 214, 0.1);
-}
-
-.btn__wrapper {
-    display: flex;
-    justify-content: center;
 }
