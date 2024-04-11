@@ -117,13 +117,13 @@ li {
     right: 0;
     bottom: 0;
     z-index: 3;
-    /* display: flex; */
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
     display: none;
 }
 
-.menu--open {
+.menu--open .menu__backdrop {
     display: flex;
 }
 
