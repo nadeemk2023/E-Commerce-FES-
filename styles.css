@@ -277,6 +277,7 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -461,5 +462,14 @@ SMALL PHONES, TABLETS, AND LARGE SMARTPHONES
 
     .btn__menu {
         display: block;
+    }
+
+    .highlight {
+        width: 100%;
+    }
+
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
+
     }
 }
