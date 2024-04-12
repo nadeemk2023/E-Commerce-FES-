@@ -126,6 +126,11 @@ li {
     transition: all 0.3s ease;
 }
 
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
 .menu--open .menu__backdrop {
     visibility: visible;
     opacity: 1;
